@@ -1,0 +1,121 @@
+
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+       <style>
+           
+   
+           .header{
+       min-height: 60vh;
+       width: 100%;
+       background-image:url(https://www.prosoundweb.com/wp-content/uploads/2022/09/NI-KOMPLETE.jpg);
+   background-position: center;
+   background-size: cover;
+   position: relative;
+   }
+   .h2{
+       display: inline;
+       font-size: 75px;
+       font-family: Georgia, Times, 'Times New Roman', serif;
+
+   }
+   .p{
+       margin: 10px 0 40px;
+       font-size: 14px;
+       color: #fff;
+   }
+   .text-box{
+       width: 90%;
+       color: #fff;
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+       text-align: center;
+   }
+   nav{
+    text-align: center;
+    min-height: 9vh;
+    background: rgb(113, 135, 138);
+   color: rgb(18, 1, 1);
+   font-family: Georgia, Times, 'Times New Roman', serif;
+   }
+   .imges{
+    text-align: center;
+   }
+   
+   .welcome{
+    font-size: 54px;
+   }
+   
+       </style>
+   </head>
+   <body>
+
+   <section class="header">
+       <div class="text-box">
+           <h1 class="h2">World's Best Products</h1>
+           <p class="p">
+               This Products has many best facilities and provide best result  <br> The customer always give best reviews about our products.
+           </p>
+           
+        </div>  
+       </section>
+    <nav>
+       <center><h1  class="welcome"  id="welc" style="display: inline-block;">Welcome</h1>
+       <h1 class="welcome" id="hname"  style="display: inline-block;"></h1></center>
+</nav>
+
+       
+    
+<!-- //show dishes -->
+<div class="container" >
+  <div class="row">
+   
+  </div>
+
+   </div>
+      
+      
+   </div>
+
+</div>
+<br>
+
+
+
+
+
+
+
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+       <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+       <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-auth.js"></script>
+       <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+       <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-storage.js"></script>
+       <script>
+     
+     
+     const firebaseConfig = {
+               apiKey: "AIzaSyAPjzpveun7vymo20Ua1JuyqpYZAUHCos8",
+     authDomain: "auth-app-79e1b.firebaseapp.com",
+     databaseURL: "https://auth-app-79e1b-default-rtdb.firebaseio.com",
+     projectId: "auth-app-79e1b",
+     storageBucket: "auth-app-79e1b.appspot.com",
+     messagingSenderId: "1054129912570",
+     appId: "1:1054129912570:web:da0787c23ee0ee0c41e743"
+           };
+     
+           // const app = initializeApp(firebaseConfig);
+           firebase.initializeApp(firebaseConfig);
+       </script>
+       <script src="./user.js"></script>
+       
+     </body>
+     </html>
