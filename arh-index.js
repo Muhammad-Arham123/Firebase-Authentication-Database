@@ -1,6 +1,6 @@
 var email = document.getElementById("email")
 var password = document.getElementById("password")
-var name1 = document.getElementById("name")
+var name1 = document.getElementById("NAME")
 var role = document.getElementsByName("role")
 var getrole=""
 
